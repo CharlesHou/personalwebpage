@@ -1,0 +1,143 @@
+body {
+    background-image: url(images/main_bg.png);
+    /* display: grid;
+    grid-template-rows:15% 40% 35% 10%;
+     */
+    
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}   
+
+header {
+    
+    height: 100px;
+    display: grid; 
+    grid-template-columns: 70% auto;
+    align-items: center;
+}
+.header__name, h1, h3{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+h1{
+    
+}
+.header__name span{
+    color: #2eca7f;
+}
+.nav__items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav__items a{
+    
+    border: 1px solid green;
+  
+}
+
+
+.banner {    
+    border: 1px solid red;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+    position: relative;  
+    border-radius: 15px 15px 0 0;
+    background-image: url(images/sp_main_bg.png);
+    background-color: #2eca7f;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner__container{
+    border: 1px solid blue;   
+}
+.item{
+    display: inline-block;
+}
+.banner--right{
+    border: 1px solid black;  
+    margin-left: 550px;   
+    height: 200px;
+    text-align: center;
+}
+div > h1{
+    
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    margin: 30px 0 0;
+}
+div > h3{
+    color: #fff;
+}
+
+.profilepic__container{
+    position: absolute;
+    top:50px;
+    margin-left:50px;   
+    
+}
+#profilepic{
+    width: 280px;
+    border: 2px solid white;
+}
+
+
+/* .profilepic-container {
+    position: absolute;
+    top: 40px;
+    left:40px;
+}
+#profilepic {
+    width: 260px;
+}    
+
+.banner--right {
+    display: grid;
+    grid-template-rows:auto;
+    justify-content: center;
+} */
+/* 父类的padding和子类的margin有什么区别 */
+.aboutcontainer {
+    display: grid;
+    grid-template-columns: 50% auto;
+    border: 1px solid blue;
+    border-radius: 0 0 15px 15px;
+    padding: 40px 40px 50px;
+    background-color: white;
+    padding: 30px 30px 50px;
+    
+}
+
+.aboutme {
+    /* margin-left: 40px; */
+    border: 2px solid yellow;
+    padding-right: 40px;
+}
+.details{
+    border: 1px solid yellow;  
+    margin-left: 0;   
+}
+ul{
+    list-style: none;  
+   
+}
+
+.details li {
+    margin: 0 0 10px 0;
+}
+
+footer{
+    text-align: center;
+}
+footer>span{
+    color: blue;
+}
